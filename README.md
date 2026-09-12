@@ -25,6 +25,8 @@ This project simulates planetary motion using **Newton's Law of Universal Gravit
 
 Each planet's position is updated every frame based on the gravitational force exerted on it by every other body in the system (including the Sun). The result is an approximation of real orbital mechanics, with each planet tracing an elliptical/circular path around the Sun.
 
+## Working Model
+(planet_simulation_passed_png)
 ## Features
 
 - Real-time physics simulation using actual astronomical constants (AU, gravitational constant, planetary masses, and orbital velocities)
