@@ -5,6 +5,10 @@ A 2D gravitational simulation of the inner Solar System, built with **Python** a
 
 ---
 
+## PLANET STIMULATION 
+<img width="903" height="500" alt="planet_simulation_passed" src="https://github.com/user-attachments/assets/50701b22-a5c0-4772-b41a-f04aa9e20dcd" />
+
+
 ## Table of Contents
 
 - [Overview](#overview)
