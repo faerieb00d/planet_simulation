@@ -2,9 +2,6 @@
 
 A 2D gravitational simulation of the inner Solar System, built with **Python** and **Pygame**. It models the Sun, Mercury, Venus, Earth, and Mars using Newtonian gravity, and renders their orbits in real time.
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Pygame](https://img.shields.io/badge/pygame-2.x-green)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
@@ -15,22 +12,16 @@ A 2D gravitational simulation of the inner Solar System, built with **Python** a
 - [Demo](#demo)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
 - [Customization](#customization)
-- [Roadmap](#roadmap)
 - [License](#license)
 
 ---
 
 ## Overview
 
-This project simulates planetary motion using **Newton's Law of Universal Gravitation**:
-
-```
-F = G * (M * m) / r²
-```
+This project simulates planetary motion using **Newton's Law of Universal Gravitation and uses theoretical fundamentals of Kepler's Planetary Motion**
 
 Each planet's position is updated every frame based on the gravitational force exerted on it by every other body in the system (including the Sun). The result is an approximation of real orbital mechanics, with each planet tracing an elliptical/circular path around the Sun.
 
