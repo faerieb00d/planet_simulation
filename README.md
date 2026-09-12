@@ -78,43 +78,9 @@ planet-simulation/
 ## Requirements
 
 - Python 3.8 or higher
-- [Pygame](https://www.pygame.org/) 2.x
+- [Pygame] 2.6.1
 
-## Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/planet-simulation.git
-   cd planet-simulation
-   ```
-
-2. **(Optional) Create a virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate      # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install pygame
-   ```
-
-   Or, if using a `requirements.txt`:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-Run the simulation from the project root:
-
-```bash
-python src/main.py
-```
-
-A window will open showing the simulation. Close the window or press the quit button to exit.
-
-## How It Works
 
 ### 1. The `Planet` Class
 
@@ -164,13 +130,7 @@ You can easily tweak the simulation:
 - **Change zoom level:** Adjust the `SCALE` constant
 - **Change window size:** Modify `WIDTH` and `HEIGHT`
 
-## Roadmap
 
-- [ ] Add outer planets (Jupiter, Saturn, Uranus, Neptune)
-- [ ] Add a UI slider to control simulation speed
-- [ ] Add pause/resume and reset controls
-- [ ] Export orbit data to CSV for analysis
-- [ ] Add unit tests for physics calculations
 
 ## License
 
